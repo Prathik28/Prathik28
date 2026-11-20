@@ -57,4 +57,10 @@ I design and verify digital hardware. My current project is TinyMAC, an open INT
 
 - Preparing TinyMAC for its first tapeout and bring-up
 
+## Developer Insight of the Day
+
+<p align="left">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
+</p>
+
 <p align="center"><sub>Keep learning. Keep building. Keep shipping.</sub></p>
