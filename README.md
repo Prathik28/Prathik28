@@ -56,6 +56,5 @@ I design and verify digital hardware. My current project is TinyMAC, an open INT
 ## Currently
 
 - Preparing TinyMAC for its first tapeout and bring-up
-- Applied to the Micron-supported SOLVE Innovation Program with a plan to scale TinyMAC into a larger edge-AI accelerator
 
 <p align="center"><sub>Keep learning. Keep building. Keep shipping.</sub></p>
