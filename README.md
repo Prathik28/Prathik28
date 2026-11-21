@@ -6,14 +6,15 @@ Undergrad at BITS Pilani, K K Birla Goa Campus
 
 <a href="https://www.linkedin.com/in/prathik-amte-313367296"><img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://github.com/Prathik28/TinyMAC"><img src="https://img.shields.io/badge/TinyMAC-000000?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://github.com/Prathik28/sar-adc-4bit-gf180"><img src="https://img.shields.io/badge/4--bit%20SAR%20ADC-000000?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </div>
 
 ## About
 
-I design and verify digital hardware. My current project is TinyMAC, an open INT8 matrix-multiply accelerator with a built-in self-test, built for the Tiny Tapeout GF180MCU shuttle. I care about designs that are tested thoroughly, formally checked where it matters, and documented well enough for someone else to bring up on a bench.
+I design and verify chip-level hardware, digital and mixed-signal. My digital project is TinyMAC, an open INT8 matrix-multiply accelerator with a built-in self-test, built for the Tiny Tapeout GF180MCU shuttle; my analog project is a 4-bit SAR ADC, taken from transistors through simulation, formal proofs and layout. I care about designs that are tested thoroughly, formally checked where it matters, and documented well enough for someone else to reproduce.
 
-## Featured project
+## Featured projects
 
 **[TinyMAC](https://github.com/Prathik28/TinyMAC)**: 2x2 output-stationary systolic array of INT8 MACs with 20-bit accumulators, controlled over SPI.
 
@@ -23,6 +24,14 @@ I design and verify digital hardware. My current project is TinyMAC, an open INT
 - SymbiYosys formal proofs (bounded and unbounded) running in CI
 - Hardened with the open-source GF180MCU flow; gate-level simulation in CI
 - Status: verified design, not yet fabricated
+
+**[4-bit SAR ADC (GF180MCU)](https://github.com/Prathik28/sar-adc-4bit-gf180)**: course project (EEE F376): a successive-approximation ADC with a transistor-level control path, charge-redistribution capacitor DAC with bottom-plate sampling and a StrongARM latch comparator, plus a Verilog controller for an FPGA prototype.
+
+- Simulated in ngspice on the open GF180MCU models: ramp DNL / INL within 0.125 LSB, ENOB 3.97 on a sine test (ideal 4.02), 11 process / voltage / temperature corners, comparator-offset and mismatch Monte Carlo, MIM capacitors, input-noise sweep
+- Found and fixed an error in the original FSM equations; the control logic is checked three ways: simulation, a gate-level mirror of the transistor logic, and SymbiYosys proofs (including that the converter returns the input code for every 4-bit input)
+- Cross-checked in Cadence Spectre on the generic gpdk180 kit, reported separately and labelled as a different process
+- Full converter laid out in a Python flow on the foundry's device generators (175 logic cells, comparator, switches, 16 unit capacitors, inter-block wiring): 0 violations in a 54-rule subset of the design manual and an extracted netlist that matches the simulated one (490 transistors)
+- Status: simulated, proven and laid out; **not** signed off (no foundry DRC / LVS, no parasitic extraction), FPGA build not yet run, not fabricated
 
 ## Team projects
 
@@ -36,6 +45,8 @@ I design and verify digital hardware. My current project is TinyMAC, an open INT
 ![Formal](https://img.shields.io/badge/Formal%20(SymbiYosys)-5a3e85?style=for-the-badge)
 ![Systolic arrays](https://img.shields.io/badge/Systolic%20arrays-0b6e4f?style=for-the-badge)
 ![SPI](https://img.shields.io/badge/SPI-8a5a00?style=for-the-badge)
+![Analog / mixed-signal](https://img.shields.io/badge/Analog%20%2F%20mixed--signal-7a3b3b?style=for-the-badge)
+![SAR ADC](https://img.shields.io/badge/SAR%20ADC-7a3b3b?style=for-the-badge)
 
 **Tools & flow**
 ![Icarus Verilog](https://img.shields.io/badge/Icarus%20Verilog-444?style=for-the-badge)
@@ -44,6 +55,9 @@ I design and verify digital hardware. My current project is TinyMAC, an open INT
 ![OpenROAD / LibreLane](https://img.shields.io/badge/OpenROAD%20%2F%20LibreLane-444?style=for-the-badge)
 ![OpenSTA](https://img.shields.io/badge/OpenSTA%20%2F%20Static%20Timing-444?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![ngspice](https://img.shields.io/badge/ngspice-444?style=for-the-badge)
+![Cadence Spectre](https://img.shields.io/badge/Cadence%20Spectre-444?style=for-the-badge)
+![KLayout](https://img.shields.io/badge/KLayout-444?style=for-the-badge)
 ![GF180MCU](https://img.shields.io/badge/GF180MCU-444?style=for-the-badge)
 ![Tiny Tapeout](https://img.shields.io/badge/Tiny%20Tapeout-444?style=for-the-badge)
 
@@ -56,6 +70,7 @@ I design and verify digital hardware. My current project is TinyMAC, an open INT
 ## Currently
 
 - Preparing TinyMAC for its first tapeout and bring-up
+- Taking the SAR ADC layout toward signoff checks and parasitic extraction
 
 ## Developer Insight of the Day
 
