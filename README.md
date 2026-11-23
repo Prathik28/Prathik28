@@ -1,12 +1,13 @@
 <div align="center">
 
-# Prathik Amte · Chip Design & Verification
+# Prathik Amte · Engineer · Chip Design & Verification
 
 Undergrad at BITS Pilani, K K Birla Goa Campus
 
 <a href="https://www.linkedin.com/in/prathik-amte-313367296"><img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://github.com/Prathik28/TinyMAC"><img src="https://img.shields.io/badge/TinyMAC-000000?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://github.com/Prathik28/sar-adc-4bit-gf180"><img src="https://img.shields.io/badge/4--bit%20SAR%20ADC-000000?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://github.com/Prathik28/chip-flow-atlas"><img src="https://img.shields.io/badge/Chip%20Flow%20Atlas-000000?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </div>
 
@@ -32,6 +33,12 @@ I design and verify chip-level hardware, digital and mixed-signal. My digital pr
 - Cross-checked in Cadence Spectre on the generic gpdk180 kit, reported separately and labelled as a different process
 - Full converter laid out in a Python flow on the foundry's device generators (175 logic cells, comparator, switches, 16 unit capacitors, inter-block wiring): 0 violations in a 54-rule subset of the design manual and an extracted netlist that matches the simulated one (490 transistors)
 - Status: simulated, proven and laid out; **not** signed off (no foundry DRC / LVS, no parasitic extraction), FPGA build not yet run, not fabricated
+
+**[Chip Flow Atlas](https://github.com/Prathik28/chip-flow-atlas)** ([live site](https://chip-flow-atlas.web.app)): a beginner-friendly website that explains which chip design tool is used when, and where to learn it.
+
+- Flowchart and map of the ASIC, FPGA and analog design flows, with free and paid tools for each step and step-by-step learning paths
+- Interactive 3D FPGA board you can spin and tap, with five sample Verilog programs (blink, button logic, counter, light chaser, traffic light) and a simplified simulation showing how the board reacts
+- Plain HTML, CSS and JavaScript with no build step or libraries; hosted on Firebase Hosting and GitHub Pages
 
 ## Team projects
 
