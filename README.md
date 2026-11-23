@@ -13,7 +13,7 @@ Undergrad at BITS Pilani, K K Birla Goa Campus
 
 ## About
 
-I design and verify chip-level hardware, digital and mixed-signal. My digital project is TinyMAC, an open INT8 matrix-multiply accelerator with a built-in self-test, built for the Tiny Tapeout GF180MCU shuttle; my analog project is a 4-bit SAR ADC, taken from transistors through simulation, formal proofs and layout. I care about designs that are tested thoroughly, formally checked where it matters, and documented well enough for someone else to reproduce.
+I want to build chip-level hardware that is tested thoroughly and documented well enough for others to reproduce, and to make chip design easier for beginners to learn.
 
 ## Technical Skillset
 
