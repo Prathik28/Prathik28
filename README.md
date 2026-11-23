@@ -1,6 +1,6 @@
 <div align="center">
 
-# Prathik Amte · Engineer · Chip Design & Verification
+# Prathik Amte · Engineer
 
 Undergrad at BITS Pilani, K K Birla Goa Campus
 
