@@ -27,17 +27,17 @@ I design and verify chip-level hardware, digital and mixed-signal. My digital pr
 ![SAR ADC](https://img.shields.io/badge/SAR%20ADC-7a3b3b?style=for-the-badge)
 
 **Tools & flow**
-![Icarus Verilog](https://img.shields.io/badge/Icarus%20Verilog-444?style=for-the-badge)
-![Verilator](https://img.shields.io/badge/Verilator-444?style=for-the-badge)
-![Yosys](https://img.shields.io/badge/Yosys-444?style=for-the-badge)
-![OpenROAD / LibreLane](https://img.shields.io/badge/OpenROAD%20%2F%20LibreLane-444?style=for-the-badge)
-![OpenSTA](https://img.shields.io/badge/OpenSTA%20%2F%20Static%20Timing-444?style=for-the-badge)
+![Icarus Verilog](https://img.shields.io/badge/Icarus%20Verilog-3d5a80?style=for-the-badge)
+![Verilator](https://img.shields.io/badge/Verilator-1b998b?style=for-the-badge)
+![Yosys](https://img.shields.io/badge/Yosys-e07a1f?style=for-the-badge)
+![OpenROAD / LibreLane](https://img.shields.io/badge/OpenROAD%20%2F%20LibreLane-6a4c93?style=for-the-badge)
+![OpenSTA](https://img.shields.io/badge/OpenSTA%20%2F%20Static%20Timing-c44569?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![ngspice](https://img.shields.io/badge/ngspice-444?style=for-the-badge)
-![Cadence Spectre](https://img.shields.io/badge/Cadence%20Spectre-444?style=for-the-badge)
-![KLayout](https://img.shields.io/badge/KLayout-444?style=for-the-badge)
-![GF180MCU](https://img.shields.io/badge/GF180MCU-444?style=for-the-badge)
-![Tiny Tapeout](https://img.shields.io/badge/Tiny%20Tapeout-444?style=for-the-badge)
+![ngspice](https://img.shields.io/badge/ngspice-2d6a4f?style=for-the-badge)
+![Cadence Spectre](https://img.shields.io/badge/Cadence%20Spectre-c1121f?style=for-the-badge)
+![KLayout](https://img.shields.io/badge/KLayout-0096c7?style=for-the-badge)
+![GF180MCU](https://img.shields.io/badge/GF180MCU-a0522d?style=for-the-badge)
+![Tiny Tapeout](https://img.shields.io/badge/Tiny%20Tapeout-b8860b?style=for-the-badge)
 
 **Languages & general**
 ![Python](https://img.shields.io/badge/python-316192?style=for-the-badge&logo=python&logoColor=ffdd54)
