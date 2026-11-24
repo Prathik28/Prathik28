@@ -5,9 +5,6 @@
 Undergrad at BITS Pilani, K K Birla Goa Campus
 
 <a href="https://www.linkedin.com/in/prathik-amte-313367296"><img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://github.com/Prathik28/TinyMAC"><img src="https://img.shields.io/badge/TinyMAC-000000?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="https://github.com/Prathik28/sar-adc-4bit-gf180"><img src="https://img.shields.io/badge/4--bit%20SAR%20ADC-000000?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="https://github.com/Prathik28/chip-flow-atlas"><img src="https://img.shields.io/badge/Chip%20Flow%20Atlas-000000?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </div>
 
